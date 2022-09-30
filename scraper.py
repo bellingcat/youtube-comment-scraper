@@ -53,12 +53,7 @@ def find_multiple_authors(video_urls):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='scraper.py')
-    parser.add_argument('videos', choices=['youtube_video_url_1', 'youtube_video_url_2', 'youtube_video_url_3'])
+    parser.add_argument('videos', nargs='+', help='List of YouTube video urls')
     args = parser.parse_args()
-    vids = [
-        'https://www.youtube.com/watch?v=C1Gn85NKrCU',
-        'https://www.youtube.com/watch?v=UMzKD73cs3c',
-        'https://www.youtube.com/watch?v=e7VOQ1l20eo'
-    ]
     find_multiple_authors(args.videos)
 
