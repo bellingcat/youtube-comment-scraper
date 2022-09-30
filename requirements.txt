@@ -1,1 +1,3 @@
+tqdm
+requests
 youtube-comment-downloader
