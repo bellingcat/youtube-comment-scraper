@@ -23,7 +23,7 @@ class YouTubeCommentScraper:
         print(notice_msg)
 
         
-    def check_and_get_updates(self):
+    def check_updates(self):
         self.notice()
         """
         Checks if the release tag matches the current tag in the program
@@ -51,7 +51,7 @@ class YouTubeCommentScraper:
 
         
     def find_multiple_users(self, video_urls):
-        self.check_and_get_updates()
+        self.check_updates()
         # video_dictionary maps the video url id to the 
         # comment dict for that video
         video_dictionary = {}
