@@ -1,42 +1,33 @@
 # YouTube-Comment-Scraper
-A script to scrape youtube comments and checks whether a user commented on the given videos
+Scrape youtube comments and checks whether a user commented on the given videos
 
 # Installation
-**1. Clone the project**
+## PyPI Package
 ```
-git clone https://github.com/rly0nheart/YouTube-Comment-Scraper.git
-```
-
-**2. Move to YouTube-Comment-Scraper directory**
-```
-cd YouTube-Comment-Scraper
+pip install youtube-comment-scraper
 ```
 
-**3. Install dependencies**
-## Note
+## Docker Image
 ```
-pip install -r requirements.txt
+docker pull rly0nheart/youtube-comment-scraper
 ```
+
 
 # Usage
+## PyPi Package
 ```
-python scraper.py <youtube_video_url_1> <youtube_video_url_2> <youtube_video_url_3>
-```
-
-> *Alternatively, you could grant execution permission to the downloader and run it as shown below*
-
-**1. Grant execution permission**
-```
-chmod +x scraper.py
+youtube_comment_scraper <video_urls>
 ```
 
-**2. Run scraper.py**
+## Docker Image
 ```
-./scraper.py <youtube_video_url_1> <youtube_video_url_2> <youtube_video_url_3>
+docker run -it rly0nheart/youtube-comment-scraper <video_urls>
 ```
+
 
 ## Note
 > Upon run, the scraper will first check for updates. If found, users will be prompted to download the updates
+>> The scraper uses [Egbert Bouman's](https://github.com/egbertbouman) [YouTube-Comment-Downloader](https://github.com/egbertbouman/youtube-comment-downloader) to get the comments
 
 # Donations
 If you would like to donate, you could Buy A Coffee for the developer using the button below
