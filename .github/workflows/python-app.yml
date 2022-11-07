@@ -36,4 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest test_find_multiple_authors.py
+        pytest youtube_comment_scraper/test_find_multiple_authors.py
