@@ -1,6 +1,6 @@
 from youtube_comment_scraper.scraper import YouTubeCommentScraper
      
-def test_find_multiple_users():
+def test_find_multiple_authors():
     # List contains, videos from Google's YouTube channel
     vids = [
         'https://www.youtube.com/watch?v=8qGV_O_y4DA',
