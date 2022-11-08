@@ -50,7 +50,7 @@ class YouTubeCommentScraper:
         return comment_dictionary
 
         
-    def find_multiple_users(self, video_urls):
+    def find_multiple_authors(self, video_urls):
         self.check_updates()
         # video_dictionary maps the video url id to the 
         # comment dict for that video
