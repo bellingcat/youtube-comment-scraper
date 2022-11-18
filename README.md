@@ -1,10 +1,10 @@
 # YouTube-Comment-Scraper
-Scrape youtube comments and checks whether a user commented on the given videos
+Scrapes youtube comments and checks whether a user commented on the given videos
 
 # Installation
-## PyPI Package
+## GitHub
 ```
-pip install youtube-comment-scraper
+pip install git+https://github.com/rly0nheart/youtube-comment-scraper
 ```
 
 ## Docker Image

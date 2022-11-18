@@ -3,7 +3,7 @@ from youtube_comment_scraper.scraper import YouTubeCommentScraper
 
 
 def create_parser():
-    parser = argparse.ArgumentParser('YouTube-Comment-Scraper — by Richard Mwewa', epilog='scrapes youtube comments and checks whether a user commented on the given videos')
+    parser = argparse.ArgumentParser('YouTube-Comment-Scraper — by Richard Mwewa | https://about.me/rly0nheart', epilog='scrapes youtube comments and checks whether a user commented on the given videos')
     parser.add_argument('videos', nargs='+', help='list of youtube video urls')
     return parser
     
