@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as file:
 
 setuptools.setup(
     name='youtube-comment-scraper',
-    version='2022.1.4.4',
+    version='2022.1.2.0',
     author='Richard Mwewa',
     author_email='rly0nheart@duck.com',
     packages=['youtube_comment_scraper'],
