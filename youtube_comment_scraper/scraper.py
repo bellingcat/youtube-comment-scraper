@@ -7,7 +7,7 @@ from youtube_comment_downloader import YoutubeCommentDownloader
 
 class YouTubeCommentScraper:
     def __init__(self):
-        self.program_version_number = '2022.1.0.0'
+        self.program_version_number = '2022.1.2.0'
         self.update_check_endpoint = "https://api.github.com/repos/rly0nheart/youtube-comment-scraper/releases/latest"
         
         
