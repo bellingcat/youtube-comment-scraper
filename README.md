@@ -1,4 +1,10 @@
 # YouTube-Comment-Scraper
+
+> [!WARNING]  
+> The respository was archived in January 2025 after discovering that it was no longer functional.
+> 
+> We encourage you to use the [youtube-comment-downloader](https://github.com/egbertbouman/youtube-comment-downloader) project, which is more fully featured, instead.
+
 Scrapes youtube comments and checks whether a user commented on the given videos
 
 # Installation
